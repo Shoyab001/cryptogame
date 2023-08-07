@@ -1,0 +1,128 @@
+.topcoin {
+  text-align: center;
+  margin-top: 50px;
+  /* border: 2px solid rgb(168, 168, 168); */
+  border-radius: 20px;
+  /* box-shadow: 0px 10px 33px -15px; */
+  padding: 30px;
+}
+.topcoin h1 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card01 {
+  text-align: center;
+}
+.card01 h4 {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 2px 20px;
+  font-size: 20px;
+  color: white;
+  font-family: -webkit-body;
+  margin-bottom: 20px;
+}
+
+.card01 p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.card01 h3 {
+  font-weight: revert;
+  font-family: inherit;
+}
+
+.news {
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.news h1 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.news button {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px 25px;
+  box-shadow: 0px 9px 8px -7px #b1b1b1;
+  border: none;
+  border-radius: 7px;
+  font-weight: 500;
+}
+.news button:hover {
+  background-color: orange;
+}
+
+@media screen and (max-width: 425px) {
+  .topcoin {
+    text-align: left;
+    margin-top: 20px;
+    padding: 0px;
+  }
+  .topcoin h1 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .card01 {
+    text-align: center;
+  }
+  .card01 h4 {
+    padding: 3px 0px;
+    font-size: 15px;
+    font-family: initial;
+    margin-bottom: 10px;
+  }
+
+  .card01 p {
+    font-weight: 500;
+    font-size: 12px;
+    margin: 6px 0px 5px;
+  }
+  .card01 h3 {
+    font-weight: revert;
+    font-family: inherit;
+    font-size: 15px;
+  }
+
+  .news {
+    text-align: start;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .btnbox {
+    text-align: center;
+  }
+  .news h1 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+
+  .news button {
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    box-shadow: 0px 10px 11px -11px #b1b1b1;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 9px;
+  }
+  .news button:hover {
+    background-color: orange;
+  }
+}

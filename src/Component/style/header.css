@@ -1,0 +1,44 @@
+.headername {
+  text-align: center;
+}
+
+.headername h2 {
+  font-size: 20px;
+  font-family: inherit;
+  margin: 10px 15px 0px;
+}
+.headername p {
+  font-size: 12px;
+  margin: 0px;
+  color: orange;
+  font-family: monospace;
+}
+.user{
+  width: 60px;
+}
+
+.logo {
+  width: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .headername {
+    text-align: center;
+  }
+  .headername h2 {
+    font-size: 10px;
+    margin: 5px 5px 0px
+  }
+  .headername p {
+    font-size: 7px;
+    margin: 2px;
+  }
+  .user{
+    width: 30px;
+    height: 30px;
+  }
+  .logo {
+    width: 50px;
+    margin-right: 12px;
+  }
+}

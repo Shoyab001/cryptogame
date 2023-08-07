@@ -1,0 +1,144 @@
+.carousel-indicators {
+  z-index: 0;
+}
+
+.caruselbox {
+  text-align: center;
+  background-image: url(../../../public/img/yllobg.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.caruselbox02 {
+  background-image: url(../../../public/img/blkbg.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+}
+.caruselbox02 h4 {
+  font-family: emoji;
+  color: white;
+  font-size: 18px;
+  padding: 25px 0px 0px;
+  margin: 0px;
+}
+
+.caruselbox02 p {
+  font-family: emoji;
+  color: white;
+  font-size: 10px;
+  padding: 12px;
+  margin: 0px;
+}
+
+.boxcol01 {
+  text-align: start;
+  padding: 50px;
+  color: white;
+}
+.boxcol01 h2 {
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: 700;
+}
+.boxcol01 p {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: ui-serif;
+}
+
+.boxcol02 {
+  text-align: end;
+  /* border: 2px solid black; */
+  padding: 50px;
+}
+
+.boxcol02 button {
+  font-family: none;
+  font-size: 22px;
+  padding: 2px 25px;
+}
+.carousel-control-prev-icon {
+  background-image: none;
+}
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.boxcol03 {
+  text-align: center;
+  background-color: white;
+  /* height: 50px; */
+  border-radius: 20px;
+}
+
+.boxcol03 p {
+  margin: 0px;
+  padding: 10px 0px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+  .caruselbox {
+    margin-top: 0px;
+    width: 100%;
+    height: 110px;
+    border-radius: 13px;
+    margin-top: 10px;
+  }
+
+  .caruselbox02 {
+    margin-top: 0px;
+    width: 100%;
+    height: 110px;
+    border-radius: 13px;
+    margin-top: 10px;
+  }
+  .boxcol01 {
+    padding: 20px;
+  }
+  .boxcol01 h2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .boxcol01 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .boxcol02 {
+    padding: 0px;
+  }
+
+  .boxcol02 a {
+    font-family: unset;
+    font-size: 8px;
+    padding: 2px 16px;
+    margin: 20px;
+    margin-right: 66px;
+  }
+  .carousel-control-prev-icon {
+    background-image: none;
+  }
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+
+  .boxcol03 {
+    border-radius: 0px;
+  }
+
+  .boxcol03 p {
+    margin: 0px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+}
